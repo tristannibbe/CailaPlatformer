@@ -5,9 +5,8 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour {
-	public Button yesButton;
-	public Button noButton;
-	public Text confirmationText;
+
+	public GameObject confirmScreen;
 	public int defaultLives;
 	public int defaulCoins;
 
@@ -22,9 +21,7 @@ public class MenuController : MonoBehaviour {
 	}
 
 	public void BeginButton(){
-		yesButton.gameObject.SetActive(true);
-		noButton.gameObject.SetActive(true);
-		confirmationText.gameObject.SetActive (true);
+		confirmScreen.SetActive(true);
 	}
 
 	public void LoadButton(){
@@ -32,18 +29,26 @@ public class MenuController : MonoBehaviour {
 	}
 
 	public void NoButton(){
-		yesButton.gameObject.SetActive(false);
-		noButton.gameObject.SetActive(false);
-		confirmationText.gameObject.SetActive (false);
+		confirmScreen.SetActive(false);
 	}
 
 	public void YesButton(){
-		PlayerPrefs.SetInt ("PlayerLives", 3);
-		PlayerPrefs.SetInt ("CoinCount", 0);
-		PlayerPrefs.SetInt ("LevelUnlocked2", 0);
-		PlayerPrefs.SetInt ("LevelUnlocked3", 0);
-		PlayerPrefs.SetInt ("LevelUnlocked4", 0);
+		setDefaultPlayerStats();
+		LockLevels();
 		SceneManager.LoadScene ("1st Cutscene");
+	}
+
+	private void setDefaultPlayerStats()
+    {
+		PlayerPrefs.SetInt("PlayerLives", 3);
+		PlayerPrefs.SetInt("CoinCount", 0);
+	}
+
+	private void LockLevels()
+    {
+		PlayerPrefs.SetInt("LevelUnlocked2", 0);
+		PlayerPrefs.SetInt("LevelUnlocked3", 0);
+		PlayerPrefs.SetInt("LevelUnlocked4", 0);
 	}
 
 	public void LoadMain(){
