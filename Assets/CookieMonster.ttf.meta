@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 02bc3c63b658adb4bbe6a317edba5e75
+timeCreated: 1505899837
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: CookieMonster
+  fontNames:
+  - CookieMonster
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
