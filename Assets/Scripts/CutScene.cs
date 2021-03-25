@@ -37,7 +37,6 @@ public class CutScene : MonoBehaviour {
 	{
 		if (playableDirector.state == PlayState.Paused)
 		{
-			print(dialogueCounter);
 			dialogueCounter++;
 			dialogueText.text = dialogueLines[dialogueCounter];
 			if(dialogueCounter >= 3)
