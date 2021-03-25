@@ -35,7 +35,7 @@ public class CutScene : MonoBehaviour {
 			print(dialogueCounter);
 			dialogueCounter++;
 			dialogueText.text = dialogueLines[dialogueCounter];
-			if(dialogueCounter >= 2)
+			if(dialogueCounter >= 3)
             {
 				playableDirector.Play();
 			}
