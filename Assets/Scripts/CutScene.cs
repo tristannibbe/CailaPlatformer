@@ -25,8 +25,8 @@ public class CutScene : MonoBehaviour {
 
 	public void ChangeScene()
     {
-
-    }
+		SceneManager.LoadScene("Level 1.1");
+	}
 
 	public void PauseDirector()
     {
