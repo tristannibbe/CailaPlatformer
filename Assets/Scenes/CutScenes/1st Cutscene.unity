@@ -1462,6 +1462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 81033898}
   - component: {fileID: 81033897}
+  - component: {fileID: 81033899}
   m_Layer: 0
   m_Name: Orc 4
   m_TagString: Untagged
@@ -1534,6 +1535,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &81033899
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81033896}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &83396609
 GameObject:
   m_ObjectHideFlags: 0
@@ -9770,6 +9790,7 @@ GameObject:
   m_Component:
   - component: {fileID: 688886065}
   - component: {fileID: 688886064}
+  - component: {fileID: 688886066}
   m_Layer: 0
   m_Name: Orc 6
   m_TagString: Untagged
@@ -9836,12 +9857,31 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688886063}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.49, y: 16.71, z: 0}
+  m_LocalPosition: {x: 4.49, y: 6.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &688886066
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688886063}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &693126361
 GameObject:
   m_ObjectHideFlags: 0
@@ -11082,6 +11122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 815796253}
   - component: {fileID: 815796252}
+  - component: {fileID: 815796254}
   m_Layer: 0
   m_Name: Caila
   m_TagString: Untagged
@@ -11147,13 +11188,32 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815796251}
-  m_LocalRotation: {x: -0, y: -0, z: 0.26366335, w: 0.96461475}
+  m_LocalRotation: {x: 0, y: 0, z: 0.26366335, w: 0.96461475}
   m_LocalPosition: {x: 4.49, y: -2.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30.575}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 329.4249}
+--- !u!95 &815796254
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815796251}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &827068700
 GameObject:
   m_ObjectHideFlags: 0
@@ -11164,6 +11224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 827068702}
   - component: {fileID: 827068701}
+  - component: {fileID: 827068703}
   m_Layer: 0
   m_Name: Orc 5
   m_TagString: Untagged
@@ -11236,6 +11297,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &827068703
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827068700}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &847167226
 GameObject:
   m_ObjectHideFlags: 0
@@ -19369,6 +19449,14 @@ PlayableDirector:
     value: {fileID: 226231095}
   - key: {fileID: -6356206463927646832, guid: 38a43086e00607c4d86050f19bddbad1, type: 2}
     value: {fileID: 384112915}
+  - key: {fileID: -5491693328134680746, guid: 38a43086e00607c4d86050f19bddbad1, type: 2}
+    value: {fileID: 815796254}
+  - key: {fileID: 2521599252157819213, guid: 38a43086e00607c4d86050f19bddbad1, type: 2}
+    value: {fileID: 81033899}
+  - key: {fileID: -1849976501721380470, guid: 38a43086e00607c4d86050f19bddbad1, type: 2}
+    value: {fileID: 827068703}
+  - key: {fileID: 6031264669520617160, guid: 38a43086e00607c4d86050f19bddbad1, type: 2}
+    value: {fileID: 688886066}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1679000669
