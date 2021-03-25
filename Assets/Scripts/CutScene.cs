@@ -23,6 +23,11 @@ public class CutScene : MonoBehaviour {
 		dialogueCounter = 0;
 	}
 
+	public void ChangeScene()
+    {
+
+    }
+
 	public void PauseDirector()
     {
 		playableDirector.Pause();
